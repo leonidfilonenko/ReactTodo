@@ -1,0 +1,30 @@
+.sort {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sort__text {
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-right: 10px;
+}
+
+.sort__arrow-up {
+    width: 15px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    background: url('https://img.icons8.com/plumpy/344/up--v1.png') center center/cover no-repeat;
+}
+
+.sort__arrow-down {
+    width: 15px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background: url('https://img.icons8.com/plumpy/344/down--v1.png') center center/cover no-repeat;
+}
